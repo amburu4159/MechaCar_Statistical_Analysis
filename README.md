@@ -38,6 +38,7 @@ Lot 3 is out of spec with a variance of 170.3 psi.
 ### T-Test that compares all manufacturing lots against mean PSI of the population 
 ![T-Test-All](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test1.PNG)
 All manufacturing lots
+
 Assuming our significance level is the common 0.05 percent, our p-value of 0.069 is above the significance level. 
 Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots 
 is statistically similar to the population mean of 1498.78 psi.
@@ -67,7 +68,7 @@ To compare the performance of the MechaCar prototype against the vehicles from t
     the fuel economy,
     the safety rating
 
-The null hypothesis would be each performance metrics is statistically similar between the MechaCar prototype and vehicles from the other manufacturers.
+The null hypothesis would be each performance metrics is statistically similar between the MechaCar prototype and vehicles from other manufacturers.
 
 We would use a one-way ANOVA test. This test is used to compare means across a number of groups.
 So, in this analysis we would compare the means for each metric across the different manufacturers.
