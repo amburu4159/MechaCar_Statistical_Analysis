@@ -23,3 +23,5 @@ total_summary
 #lot summary table
 lot_summary <- suspension_coil%>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') 
 lot_summary
+
+ 
