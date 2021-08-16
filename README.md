@@ -9,8 +9,8 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 		
-		Vehicle weight and ground clearance provided a non-random amount of variance to the linear model of 
-		the data set
+		Vehicle weight and ground clearance provided a non-random amount of variance to the linear 
+		model of the data set
 
 •	Is the slope of the linear model considered to be zero? 
 		
@@ -25,11 +25,18 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 
 ## Summary Statistics on Suspension Coils
+![all_lots](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/total_summary.PNG)
+![each_lot]( https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.PNG)
 
- 
+The design specifications state that the variance of the suspension coils must not exceed 100 pounds per square inch.
+The design specs are within specifications for all manufacturing lots with a total variance of 62.3 psi.
+As for the indiividual lots, Lot 1 and Lot 2 are with in spec with variances as variances of 0.98 and 7.5 psi respectively. 
+Lot 3 is out of spec with a variance of 170.3 psi.
+
 ## T-Tests on Suspension Coils
 
 
 ## Study Design: MechaCar vs Competition
+
 
 

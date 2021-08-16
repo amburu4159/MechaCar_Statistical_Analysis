@@ -1,6 +1,7 @@
 #import Libraries 
 #install.packages("broom", type="binary")
 #library(tidyverse)
+#library(vroom)
 
 #read mechaCarMpg data into dataframe 
 mechaCarMpg <- read_csv("MechaCar_mpg.csv")
