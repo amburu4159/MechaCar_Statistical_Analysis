@@ -45,6 +45,7 @@ is statiscally similar to the population mean of 1498.78 psi.
 ### T-Tests each manufacturing lot against the population mean
 ![T-Test-lot1](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG)
 Lot1
+
 Here the p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and conclude that the PSI across 
 the Lot 1 is statistically different from the population mean.
 
@@ -53,6 +54,7 @@ Lot 2
 
 ![T-Test-lot3](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test4.PNG)
 Lot3
+
 Lot 2 and Lot 3 both p-values are above the significance level, so we can conclude that the PSI for Lot2 and Lot3 are statistically similar 
 to the population mean.
 
