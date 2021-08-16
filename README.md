@@ -35,12 +35,12 @@ Lot 3 is out of spec with a variance of 170.3 psi.
 
 ## T-Tests on Suspension Coils
 ### T-Test that compares all manufacturing lots against mean PSI of the population 
-![T-Test-All]https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test1.PNG
+![T-Test-All](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test1.PNG)
 
 ### T-Tests each manufacturing lot against the population mean
-![T-Test-lot1]https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG
-![T-Test-lot2]https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test3.PNG
-![T-Test-lot3]https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test4.PNG
+![T-Test-lot1](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG)
+![T-Test-lot2](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test3.PNG)
+![T-Test-lot3](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test4.PNG)
 
 ## Study Design: MechaCar vs Competition
 
