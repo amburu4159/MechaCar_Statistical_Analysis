@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Project Overview
-The purpose of this project is to use R(programming language) in statistics and hypothesis testing to analyze data from the auto industry.
+The purpose of this project is to use R (programming language) in statistics and hypothesis testing to analyze data from the auto industry.
 
 
 ## Linear Regression to Predict MPG
@@ -31,7 +31,7 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 The design specifications state that the variance of the suspension coils must not exceed 100 pounds per square inch.
 The design specs are within specifications for all manufacturing lots when looking as a total of all lots, with a total variance of 62.3 psi.
-As for the indiividual lots, Lot 1 and Lot 2 are with in spec with variances as variances of 0.98 and 7.5 psi respectively. 
+As for the individual lots, Lot 1 and Lot 2 are with in spec with variances as variances of 0.98 and 7.5 psi respectively. 
 Lot 3 is out of spec with a variance of 170.3 psi.
 
 ## T-Tests on Suspension Coils
@@ -40,7 +40,7 @@ Lot 3 is out of spec with a variance of 170.3 psi.
 All manufacturing lots
 Assuming our significance level is the common 0.05 percent, our p-value of 0.069 is above the significance level. 
 Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots 
-is statiscally similar to the population mean of 1498.78 psi.
+is statistically similar to the population mean of 1498.78 psi.
 
 ### T-Tests each manufacturing lot against the population mean
 ![T-Test-lot1](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG)
@@ -59,6 +59,19 @@ Lot 2 and Lot 3 both p-values are above the significance level, so we can conclu
 to the population mean.
 
 ## Study Design: MechaCar vs Competition
+To compare the performance of the MechaCar prototype against the vehicles from the competition, we will perform a statistical analysis based on the following metrics:
 
+    the Horsepower,
+    the torque figures,    
+    the infotainment system,
+    the fuel economy,
+    the safety rating
+
+The null hypothesis would be each performance metrics is statistically similar between the MechaCar prototype and vehicles from the other manufacturers.
+
+We would use a one-way ANOVA test. This test is used to compare means across a number of groups.
+So, in this analysis we would compare the means for each metric across the different manufacturers.
+
+To correctly perform the test, we would need data of MechaCar vehicles and vehicles from their competition. This data would be put into a dataframe where each metric is a column.
 
 
