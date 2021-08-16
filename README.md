@@ -26,6 +26,7 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 ## Summary Statistics on Suspension Coils
 ![all_lots](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/total_summary.PNG)
+
 ![each_lot]( https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.PNG)
 
 The design specifications state that the variance of the suspension coils must not exceed 100 pounds per square inch.
@@ -36,11 +37,17 @@ Lot 3 is out of spec with a variance of 170.3 psi.
 ## T-Tests on Suspension Coils
 ### T-Test that compares all manufacturing lots against mean PSI of the population 
 ![T-Test-All](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test1.PNG)
+T-Test all manufacturing lots
 
 ### T-Tests each manufacturing lot against the population mean
 ![T-Test-lot1](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG)
+Lot1
+
 ![T-Test-lot2](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test3.PNG)
+Lot 2
+
 ![T-Test-lot3](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test4.PNG)
+Lot3
 
 ## Study Design: MechaCar vs Competition
 
