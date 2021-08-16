@@ -37,17 +37,24 @@ Lot 3 is out of spec with a variance of 170.3 psi.
 ## T-Tests on Suspension Coils
 ### T-Test that compares all manufacturing lots against mean PSI of the population 
 ![T-Test-All](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test1.PNG)
-T-Test all manufacturing lots
+All manufacturing lots
+Assuming our significance level is the common 0.05 percent, our p-value of 0.069 is above the significance level. 
+Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots 
+is statiscally similar to the population mean of 1498.78 psi.
 
 ### T-Tests each manufacturing lot against the population mean
 ![T-Test-lot1](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test2.PNG)
 Lot1
+Here the p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and conclude that the PSI across 
+the Lot 1 is statistically different from the population mean.
 
 ![T-Test-lot2](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test3.PNG)
 Lot 2
 
 ![T-Test-lot3](https://github.com/amburu4159/MechaCar_Statistical_Analysis/blob/main/images/t-test4.PNG)
 Lot3
+Lot 2 and Lot 3 both p-values are above the significance level, so we can conclude that the PSI for Lot2 and Lot3 are statistically similar 
+to the population mean.
 
 ## Study Design: MechaCar vs Competition
 
