@@ -9,7 +9,8 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 		
-		Vehicle weight and ground clearance provided a non-random amount of variance to the linear model of the data set
+		Vehicle weight and ground clearance provided a non-random amount of variance to the linear model of 
+		the data set
 
 •	Is the slope of the linear model considered to be zero? 
 		
@@ -17,7 +18,9 @@ The purpose of this project is to use R(programming language) in statistics and 
 
 •	Does this linear model predict mpg of MechaCar prototypes effectively? 
 		
-		Yes, it does. R-square is 71%. So, the variations in mpg can be explained by changes in the vehicle length, the vehicle weight, the spoiler angle, the drivetrain and the ground clearance with a 71% certainty, which is effective
+		Yes, it does. R-square is 71%. So, the variations in mpg can be explained by changes in the 
+		vehicle length, the vehicle weight, the spoiler angle, the drivetrain and the ground clearance 
+		with a 71% certainty, which is effective
 
 
 
